@@ -45,7 +45,8 @@ class Port(base.BaseV30):
                 "port-number": port,
                 "range": kwargs.get("range", 0),
                 "action": kwargs.get("action", "enable"),
-                "protocol": protocol
+                "protocol": protocol,
+                "template-port": kwargs.get("template_port")
             }
         }
 
